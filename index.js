@@ -5,7 +5,7 @@ const axios = require('axios');
 const app = express();
 const PORT = process.env.PORT || 3000;
 // We will set this token securely in Railway later
-const VALID_TOKEN = process.env.API_TOKEN || 'my-super-secret-token'; 
+const VALID_TOKEN = process.env.API_TOKEN || '^IkVM%VK1;Yb2&b0bYIiqAt9kKhBSnKa'; 
 
 // Middleware to check the Bearer token
 const checkToken = (req, res, next) => {
